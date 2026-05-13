@@ -37,7 +37,7 @@ Each calculation type has appeared in at least one past paper. Do each one from 
 | Pulse energy, peak power, peak intensity (E_pulse, P_peak, I_peak) | MODEL Q6, Q19 | [x] |
 | χ⁽²⁾ and χ⁽³⁾ estimates from E_at (both 5×10¹¹ and 5.14×10¹¹ V/m) | MODEL Q10 | [x] |
 | Bandwidth: Δν → Δλ via Δλ = (λ²/c)Δν | MODEL Q3, Q19 | [ ] |
-| 1PEF vs 2PEF vs 3PEF resolution (d = 0.61λ/NA, squeeze by 1/√n) | MODEL Q9 | [ ] |
+| 1PEF vs 2PEF vs 3PEF resolution (d = 0.61λ/NA, squeeze by 1/√n) | MODEL Q9 | [x] |
 | Vibrational frequency ν̃ from k and μ_r (reduced mass calculation) | MODEL Q8, Q16 | [ ] |
 | IR wavelength in microns (λ = 1/ν̃ in cm) | MODEL Q16 | [ ] |
 | CARS / Raman Stokes wavelength from pump λ and ν̃_vib | MODEL Q7, Q16 | [ ] |
@@ -112,7 +112,7 @@ Update this as tasks are completed. An agent should ask about this at the start 
 | Task | Status |
 |------|--------|
 | Task 1: Derivations | In progress — P01 replicated once successfully; P02 replicated twice successfully including one blank-page success with unified notation; mastery not yet ticked |
-| Task 2: Calculations | In progress — 2/11 recurring calculation types complete |
+| Task 2: Calculations | In progress — 3/11 recurring calculation types complete |
 | Task 3: Stock explanations | In progress — 1/14 explanation types complete |
 | Task 4: Past paper drills | Not started |
 
@@ -123,5 +123,6 @@ Update this as tasks are completed. An agent should ask about this at the start 
 - Task 2 update: pulse energy / peak power / peak intensity completed correctly using P_av = 20 mW, f_rep = 100 MHz, tau_p = 200 fs, r = 0.5 um. Results: E_pulse = 2.0 x 10^-10 J, P_peak = 1.0 kW, I_peak = 1.27 x 10^15 W m^-2.
 - Task 2 update: intensity-to-field conversion completed correctly for I = 1.27 x 10^15 W m^-2, giving E = 9.78 x 10^8 V m^-1 and E/E_at approx 1.96 x 10^-3.
 - Task 2 update: chi estimates completed correctly using E_at = 5.0 x 10^11 V m^-1 and chi^(1) = 2. Results: chi^(2) = 4.0 x 10^-12 m V^-1 and chi^(3) = 8.0 x 10^-24 m^2 V^-2.
+- Task 2 update: 1PEF vs 2PEF vs 3PEF resolution marked complete. User applied the correct method for lambda = 1064 nm and NA = 1.2, but initially dropped one power of ten. Correct values: d_1P = 541 nm = 5.41 x 10^-7 m, d_2P = 383 nm = 3.83 x 10^-7 m, d_3P = 312 nm = 3.12 x 10^-7 m. Remember to calculate in nm first to avoid power-of-ten errors.
 - Task 3 update: why CW excitation cannot produce NLO signals in imaging contexts completed at explanation level: nonlinear effects need high field/high peak intensity; CW would require impractically high average power and damage samples, whereas ultrafast pulses give high peak intensity with manageable average power.
 - Current correction to remember: under E -> -E, (-E)^3 = -E^3, so cubic terms change sign and are allowed in centrosymmetric media; (-E)^2 = E^2, so quadratic terms do not change sign and vanish.
