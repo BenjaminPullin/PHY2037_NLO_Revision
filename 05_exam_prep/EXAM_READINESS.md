@@ -65,7 +65,7 @@ Check the box only when you can write a complete answer — correct equation, ph
 | Phase matching: what it is, why normal dispersion prevents it, three methods to achieve it | 4–6 | SHORT_ANSWER_BANK | [x] |
 | Gouy phase: why THG is interface-only but FWM occurs in bulk | 2 | MODEL Q18 | [ ] |
 | Parametric vs non-parametric: definitions with examples from each category | 4 | SHORT_ANSWER_BANK | [x] |
-| CARS vs SRS: how each works, which has non-resonant background and why | 4 | SHORT_ANSWER_BANK | [ ] |
+| CARS vs SRS: how each works, which has non-resonant background and why | 4 | SHORT_ANSWER_BANK | [x] |
 | Why ps pulses are needed for CARS/SRS (not fs) | 2–3 | SHORT_ANSWER_BANK | [ ] |
 | KLM mode locking: mechanism and how aperture creates pulse selection | 6 | MODEL Q17 | [ ] |
 | SESAM mode locking: band diagram, fast recovery, why it gives ps pulses | 5 | PAST_PAPER_SOLUTIONS (2025 Q4) | [ ] |
@@ -113,7 +113,7 @@ Update this as tasks are completed. An agent should ask about this at the start 
 |------|--------|
 | Task 1: Derivations | In progress — P01 replicated once successfully; P02 replicated twice successfully including one blank-page success with unified notation; mastery not yet ticked |
 | Task 2: Calculations | Complete — 11/11 recurring calculation types complete |
-| Task 3: Stock explanations | In progress — 6/14 explanation types complete |
+| Task 3: Stock explanations | In progress — 7/14 explanation types complete |
 | Task 4: Past paper drills | Not started |
 
 - Exam revision started. Direct commit test from ChatGPT chat.
@@ -138,4 +138,5 @@ Update this as tasks are completed. An agent should ask about this at the start 
 - Task 3 update: chemical specificity of vibrational spectroscopy completed. User recalled that different bonds have characteristic frequencies determined by reduced mass and spring constant/bond stiffness. Correction noted: the resulting spectrum is a molecular fingerprint spectrum.
 - Task 3 update: phase matching completed at core level. User correctly recalled that phase mismatch makes generated regions go out of phase, causing destructive interference and reduced signal, and that phase matching means the generated wave stays in phase with the nonlinear polarisation. For full marks add normal dispersion prevents SHG phase matching and methods: birefringence, quasi-phase matching, temperature/angle tuning.
 - Task 3 update: parametric vs non-parametric completed. User correctly classified SHG and four-wave mixing as parametric, fluorescence and Raman scattering as non-parametric, and corrected the definition to: parametric means the material returns to its original quantum state with no real excited-state population remaining.
+- Task 3 update: CARS vs SRS completed. User recalled that CARS has non-resonant background and creates a new anti-Stokes photon, while SRS measures an intensity change/transfer between pump and Stokes beams. Correction noted: use transfer rather than difference for strongest wording.
 - Current correction to remember: under E -> -E, (-E)^3 = -E^3, so cubic terms change sign and are allowed in centrosymmetric media; (-E)^2 = E^2, so quadratic terms do not change sign and vanish.
