@@ -36,7 +36,7 @@ Each calculation type has appeared in at least one past paper. Do each one from 
 |------------|-------------------|------|
 | Pulse energy, peak power, peak intensity (E_pulse, P_peak, I_peak) | MODEL Q6, Q19 | [x] |
 | χ⁽²⁾ and χ⁽³⁾ estimates from E_at (both 5×10¹¹ and 5.14×10¹¹ V/m) | MODEL Q10 | [x] |
-| Bandwidth: Δν → Δλ via Δλ = (λ²/c)Δν | MODEL Q3, Q19 | [ ] |
+| Bandwidth: Δν → Δλ via Δλ = (λ²/c)Δν | MODEL Q3, Q19 | [x] |
 | 1PEF vs 2PEF vs 3PEF resolution (d = 0.61λ/NA, squeeze by 1/√n) | MODEL Q9 | [x] |
 | Vibrational frequency ν̃ from k and μ_r (reduced mass calculation) | MODEL Q8, Q16 | [x] |
 | IR wavelength in microns (λ = 1/ν̃ in cm) | MODEL Q16 | [ ] |
@@ -112,7 +112,7 @@ Update this as tasks are completed. An agent should ask about this at the start 
 | Task | Status |
 |------|--------|
 | Task 1: Derivations | In progress — P01 replicated once successfully; P02 replicated twice successfully including one blank-page success with unified notation; mastery not yet ticked |
-| Task 2: Calculations | In progress — 5/11 recurring calculation types complete |
+| Task 2: Calculations | In progress — 6/11 recurring calculation types complete |
 | Task 3: Stock explanations | In progress — 1/14 explanation types complete |
 | Task 4: Past paper drills | Not started |
 
@@ -126,6 +126,7 @@ Update this as tasks are completed. An agent should ask about this at the start 
 - Task 2 update: 1PEF vs 2PEF vs 3PEF resolution marked complete. User applied the correct method for lambda = 1064 nm and NA = 1.2, but initially dropped one power of ten. Correct values: d_1P = 541 nm = 5.41 x 10^-7 m, d_2P = 383 nm = 3.83 x 10^-7 m, d_3P = 312 nm = 3.12 x 10^-7 m. Remember to calculate in nm first to avoid power-of-ten errors.
 - Task 2 update: vibrational frequency calculation marked complete. User correctly calculated nu_vib = 2.25 x 10^13 Hz for k = 400 N m^-1 and mu_r = 2.0 x 10^-26 kg, then converted to wavenumber 750 cm^-1.
 - Task 2 update: Rayleigh scattering ratio marked complete. User correctly calculated I_600/I_1200 = (1200/600)^4 = 16. Remember: shorter wavelength scatters more strongly, so the longer wavelength goes on top inside the ratio.
+- Task 2 update: bandwidth conversion marked complete. User correctly calculated Delta lambda = about 1.87-1.89 nm for lambda = 1064 nm and Delta nu = 5.0 x 10^11 Hz using Delta lambda = lambda^2 Delta nu / c.
 - Task 2 practice note: IR wavelength conversion has been attempted but not ticked. User wrote 313 for 3200 cm^-1; correct answer is 3.13 um using lambda(um)=10^4/nu_tilde(cm^-1). Watch decimal placement.
 - Task 2 practice note: Raman Stokes wavelength conversion has been attempted but not ticked. User correctly obtained lambda_S about 0.0000837 cm for pump 785 nm and vibrational shift 750 cm^-1, but did not convert final result to nm. Correct final answer is about 835-837 nm.
 - Task 3 update: why CW excitation cannot produce NLO signals in imaging contexts completed at explanation level: nonlinear effects need high field/high peak intensity; CW would require impractically high average power and damage samples, whereas ultrafast pulses give high peak intensity with manageable average power.
