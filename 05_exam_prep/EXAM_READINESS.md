@@ -39,7 +39,7 @@ Each calculation type has appeared in at least one past paper. Do each one from 
 | Bandwidth: Δν → Δλ via Δλ = (λ²/c)Δν | MODEL Q3, Q19 | [x] |
 | 1PEF vs 2PEF vs 3PEF resolution (d = 0.61λ/NA, squeeze by 1/√n) | MODEL Q9 | [x] |
 | Vibrational frequency ν̃ from k and μ_r (reduced mass calculation) | MODEL Q8, Q16 | [x] |
-| IR wavelength in microns (λ = 1/ν̃ in cm) | MODEL Q16 | [ ] |
+| IR wavelength in microns (λ = 1/ν̃ in cm) | MODEL Q16 | [x] |
 | CARS / Raman Stokes wavelength from pump λ and ν̃_vib | MODEL Q7, Q16 | [ ] |
 | Rayleigh scattering ratio between two wavelengths (λ₁/λ₂)⁴ | MODEL Q20 | [x] |
 | Infinite square well: molecule length for given absorption wavelength | MODEL Q13 | [x] |
@@ -112,7 +112,7 @@ Update this as tasks are completed. An agent should ask about this at the start 
 | Task | Status |
 |------|--------|
 | Task 1: Derivations | In progress — P01 replicated once successfully; P02 replicated twice successfully including one blank-page success with unified notation; mastery not yet ticked |
-| Task 2: Calculations | In progress — 9/11 recurring calculation types complete |
+| Task 2: Calculations | In progress — 10/11 recurring calculation types complete |
 | Task 3: Stock explanations | In progress — 1/14 explanation types complete |
 | Task 4: Past paper drills | Not started |
 
@@ -130,7 +130,7 @@ Update this as tasks are completed. An agent should ask about this at the start 
 - Task 2 update: infinite square well molecule-length calculation marked complete. User correctly estimated L = 7.5 x 10^-10 m = 0.75 nm for a 620 nm absorption using the 1 -> 2 transition formula L = sqrt(3 h lambda / (8 m c)).
 - Task 2 update: hydrogen absorption wavelength marked complete. User correctly calculated Delta E = 1.89 eV and lambda approx 654-656 nm for the n = 2 -> 3 transition using E_n = -13.6/n^2 eV and lambda(nm)=1240/E(eV). Remember the common n = 1 -> 2 result: Delta E = 10.2 eV, lambda approx 122 nm.
 - Task 2 update: CW vs pulsed average power calculation marked complete. User correctly calculated P = 392.7 W for I = 5 x 10^14 W m^-2 and r = 0.5 um using P = I pi r^2. Interpretation: equivalent CW powers become impractical for imaging, motivating pulsed excitation.
-- Task 2 practice note: IR wavelength conversion has been attempted but not ticked. User wrote 313 for 3200 cm^-1; correct answer is 3.13 um using lambda(um)=10^4/nu_tilde(cm^-1). Watch decimal placement.
-- Task 2 practice note: Raman Stokes wavelength conversion has been attempted but not ticked. User correctly obtained lambda_S about 0.0000837 cm for pump 785 nm and vibrational shift 750 cm^-1, but did not convert final result to nm. Correct final answer is about 835-837 nm.
+- Task 2 update: IR wavelength conversion marked complete. User correctly calculated lambda = 4 um for nu_tilde = 2500 cm^-1 using lambda(um)=10^4/nu_tilde(cm^-1). Previous decimal issue noted but corrected.
+- Task 2 practice note: Raman Stokes wavelength conversion has been attempted but not ticked. User correctly obtained lambda_S about 0.000064 cm for pump 600 nm and vibrational shift 1000 cm^-1, but still needs to consistently convert final result to nm. Correct final answer is about 638-640 nm.
 - Task 3 update: why CW excitation cannot produce NLO signals in imaging contexts completed at explanation level: nonlinear effects need high field/high peak intensity; CW would require impractically high average power and damage samples, whereas ultrafast pulses give high peak intensity with manageable average power.
 - Current correction to remember: under E -> -E, (-E)^3 = -E^3, so cubic terms change sign and are allowed in centrosymmetric media; (-E)^2 = E^2, so quadratic terms do not change sign and vanish.
