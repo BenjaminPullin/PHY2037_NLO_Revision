@@ -56,7 +56,7 @@ Check the box only when you can write a complete answer — correct equation, ph
 
 | Topic | Marks | Reference | Done |
 |-------|-------|-----------|------|
-| Jablonski diagram: draw with all transitions labelled (radiative / non-radiative) | 4 | SHORT_ANSWER_BANK / MODEL Q (various) | [ ] |
+| Jablonski diagram: draw with all transitions labelled (radiative / non-radiative) | 4 | SHORT_ANSWER_BANK / MODEL Q (various) | [x] |
 | Fluorescence is non-parametric: explain and identify the Jablonski transition that proves it | 2 | MODEL Q (2024 Q1 style) | [x] |
 | Confocal microscopy: how it achieves 3D sectioning (diagram required) | 4 | SHORT_ANSWER_BANK | [x] |
 | 2PEF vs confocal: three advantages (intrinsic sectioning, no pinhole needed, depth penetration) | 4–6 | MODEL Q11 | [x] |
@@ -113,7 +113,7 @@ Update this as tasks are completed. An agent should ask about this at the start 
 |------|--------|
 | Task 1: Derivations | In progress — P01 replicated once successfully; P02 replicated twice successfully including one blank-page success with unified notation; mastery not yet ticked |
 | Task 2: Calculations | Complete — 11/11 recurring calculation types complete |
-| Task 3: Stock explanations | In progress — 13/14 explanation types complete |
+| Task 3: Stock explanations | Complete — 14/14 explanation types complete |
 | Task 4: Past paper drills | Not started |
 
 - Exam revision started. Direct commit test from ChatGPT chat.
@@ -145,4 +145,5 @@ Update this as tasks are completed. An agent should ask about this at the start 
 - Task 3 update: SESAM mode locking completed. User explained that short intense pulses experience lower cavity loss than weak CW light because at high intensity the semiconductor saturable absorber saturates and absorption decreases. Add fast recovery and band diagram details for full 5-mark answers.
 - Task 3 update: confocal microscopy completed. User recalled that a pinhole rejects out-of-focus light, allowing optical sectioning, and that scanning produces optical sections. For full marks say the pinhole is conjugate to the focal plane and out-of-focus light is not focused at the pinhole.
 - Task 3 update: fluorescence non-parametric completed. User corrected to the key statement: fluorescence is non-parametric because energy is temporarily stored in a real excited state before delayed emission.
+- Task 3 update: Jablonski diagram assumed complete by user request. Must still preserve full-mark checklist: label S0, S1, S2, absorption, vibrational relaxation, internal conversion, fluorescence, and radiative vs non-radiative transitions.
 - Current correction to remember: under E -> -E, (-E)^3 = -E^3, so cubic terms change sign and are allowed in centrosymmetric media; (-E)^2 = E^2, so quadratic terms do not change sign and vanish.
