@@ -68,7 +68,7 @@ Check the box only when you can write a complete answer — correct equation, ph
 | CARS vs SRS: how each works, which has non-resonant background and why | 4 | SHORT_ANSWER_BANK | [x] |
 | Why ps pulses are needed for CARS/SRS (not fs) | 2–3 | SHORT_ANSWER_BANK | [x] |
 | KLM mode locking: mechanism and how aperture creates pulse selection | 6 | MODEL Q17 | [x] |
-| SESAM mode locking: band diagram, fast recovery, why it gives ps pulses | 5 | PAST_PAPER_SOLUTIONS (2025 Q4) | [ ] |
+| SESAM mode locking: band diagram, fast recovery, why it gives ps pulses | 5 | PAST_PAPER_SOLUTIONS (2025 Q4) | [x] |
 | Why CW excitation cannot produce NLO signals in imaging contexts | 2 | MODEL Q15 | [x] |
 
 ---
@@ -113,7 +113,7 @@ Update this as tasks are completed. An agent should ask about this at the start 
 |------|--------|
 | Task 1: Derivations | In progress — P01 replicated once successfully; P02 replicated twice successfully including one blank-page success with unified notation; mastery not yet ticked |
 | Task 2: Calculations | Complete — 11/11 recurring calculation types complete |
-| Task 3: Stock explanations | In progress — 10/14 explanation types complete |
+| Task 3: Stock explanations | In progress — 11/14 explanation types complete |
 | Task 4: Past paper drills | Not started |
 
 - Exam revision started. Direct commit test from ChatGPT chat.
@@ -142,4 +142,5 @@ Update this as tasks are completed. An agent should ask about this at the start 
 - Task 3 update: ps vs fs pulses for CARS/SRS completed. User correctly explained that fs pulses have too broad a bandwidth and excite too many vibrational modes simultaneously. Correction noted: use optical time-bandwidth product wording rather than Heisenberg unless explicitly requested.
 - Task 3 update: Gouy phase and THG completed. User corrected to the key idea: homogeneous bulk THG is cancelled by Gouy-phase-induced destructive interference, while interfaces break the symmetry/cancellation, making THG strongest at boundaries.
 - Task 3 update: KLM mode locking completed. User explained that the nonlinear Kerr effect makes intense pulses focus more than low-intensity light, so the aperture acts as an intensity-dependent loss element. User also recalled the aperture transmits the focused beam and clips the unfocused beam.
+- Task 3 update: SESAM mode locking completed. User explained that short intense pulses experience lower cavity loss than weak CW light because at high intensity the semiconductor saturable absorber saturates and absorption decreases. Add fast recovery and band diagram details for full 5-mark answers.
 - Current correction to remember: under E -> -E, (-E)^3 = -E^3, so cubic terms change sign and are allowed in centrosymmetric media; (-E)^2 = E^2, so quadratic terms do not change sign and vanish.
