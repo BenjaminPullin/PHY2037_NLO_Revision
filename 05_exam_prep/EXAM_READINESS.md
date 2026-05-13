@@ -43,7 +43,7 @@ Each calculation type has appeared in at least one past paper. Do each one from 
 | CARS / Raman Stokes wavelength from pump λ and ν̃_vib | MODEL Q7, Q16 | [ ] |
 | Rayleigh scattering ratio between two wavelengths (λ₁/λ₂)⁴ | MODEL Q20 | [x] |
 | Infinite square well: molecule length for given absorption wavelength | MODEL Q13 | [x] |
-| Hydrogen atom absorption wavelength (ΔE = 10.2 eV → λ = 122 nm) | MODEL Q14 | [ ] |
+| Hydrogen atom absorption wavelength (ΔE = 10.2 eV → λ = 122 nm) | MODEL Q14 | [x] |
 | CW vs pulsed average power for a given intensity and spot size | MODEL Q15 | [ ] |
 
 ---
@@ -112,7 +112,7 @@ Update this as tasks are completed. An agent should ask about this at the start 
 | Task | Status |
 |------|--------|
 | Task 1: Derivations | In progress — P01 replicated once successfully; P02 replicated twice successfully including one blank-page success with unified notation; mastery not yet ticked |
-| Task 2: Calculations | In progress — 7/11 recurring calculation types complete |
+| Task 2: Calculations | In progress — 8/11 recurring calculation types complete |
 | Task 3: Stock explanations | In progress — 1/14 explanation types complete |
 | Task 4: Past paper drills | Not started |
 
@@ -128,6 +128,7 @@ Update this as tasks are completed. An agent should ask about this at the start 
 - Task 2 update: Rayleigh scattering ratio marked complete. User correctly calculated I_600/I_1200 = (1200/600)^4 = 16. Remember: shorter wavelength scatters more strongly, so the longer wavelength goes on top inside the ratio.
 - Task 2 update: bandwidth conversion marked complete. User correctly calculated Delta lambda = about 1.87-1.89 nm for lambda = 1064 nm and Delta nu = 5.0 x 10^11 Hz using Delta lambda = lambda^2 Delta nu / c.
 - Task 2 update: infinite square well molecule-length calculation marked complete. User correctly estimated L = 7.5 x 10^-10 m = 0.75 nm for a 620 nm absorption using the 1 -> 2 transition formula L = sqrt(3 h lambda / (8 m c)).
+- Task 2 update: hydrogen absorption wavelength marked complete. User correctly calculated Delta E = 1.89 eV and lambda approx 654-656 nm for the n = 2 -> 3 transition using E_n = -13.6/n^2 eV and lambda(nm)=1240/E(eV). Remember the common n = 1 -> 2 result: Delta E = 10.2 eV, lambda approx 122 nm.
 - Task 2 practice note: IR wavelength conversion has been attempted but not ticked. User wrote 313 for 3200 cm^-1; correct answer is 3.13 um using lambda(um)=10^4/nu_tilde(cm^-1). Watch decimal placement.
 - Task 2 practice note: Raman Stokes wavelength conversion has been attempted but not ticked. User correctly obtained lambda_S about 0.0000837 cm for pump 785 nm and vibrational shift 750 cm^-1, but did not convert final result to nm. Correct final answer is about 835-837 nm.
 - Task 3 update: why CW excitation cannot produce NLO signals in imaging contexts completed at explanation level: nonlinear effects need high field/high peak intensity; CW would require impractically high average power and damage samples, whereas ultrafast pulses give high peak intensity with manageable average power.
