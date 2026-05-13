@@ -60,7 +60,7 @@ Check the box only when you can write a complete answer — correct equation, ph
 | Fluorescence is non-parametric: explain and identify the Jablonski transition that proves it | 2 | MODEL Q (2024 Q1 style) | [ ] |
 | Confocal microscopy: how it achieves 3D sectioning (diagram required) | 4 | SHORT_ANSWER_BANK | [ ] |
 | 2PEF vs confocal: three advantages (intrinsic sectioning, no pinhole needed, depth penetration) | 4–6 | MODEL Q11 | [x] |
-| IR vs Raman selection rules (both, not just one) | 2–4 | SHORT_ANSWER_BANK | [ ] |
+| IR vs Raman selection rules (both, not just one) | 2–4 | SHORT_ANSWER_BANK | [x] |
 | Why vibrational transitions give chemical specificity but electronic transitions do not | 4 | SHORT_ANSWER_BANK / PAST_PAPER_SOLUTIONS | [ ] |
 | Phase matching: what it is, why normal dispersion prevents it, three methods to achieve it | 4–6 | SHORT_ANSWER_BANK | [ ] |
 | Gouy phase: why THG is interface-only but FWM occurs in bulk | 2 | MODEL Q18 | [ ] |
@@ -113,7 +113,7 @@ Update this as tasks are completed. An agent should ask about this at the start 
 |------|--------|
 | Task 1: Derivations | In progress — P01 replicated once successfully; P02 replicated twice successfully including one blank-page success with unified notation; mastery not yet ticked |
 | Task 2: Calculations | Complete — 11/11 recurring calculation types complete |
-| Task 3: Stock explanations | In progress — 2/14 explanation types complete |
+| Task 3: Stock explanations | In progress — 3/14 explanation types complete |
 | Task 4: Past paper drills | Not started |
 
 - Exam revision started. Direct commit test from ChatGPT chat.
@@ -134,4 +134,5 @@ Update this as tasks are completed. An agent should ask about this at the start 
 - Task 2 update: Raman/CARS Stokes wavelength conversion marked complete. User correctly calculated lambda_S approx 578 nm for pump lambda_P = 532 nm and vibrational shift 1500 cm^-1, including final conversion from cm to nm.
 - Task 3 update: why CW excitation cannot produce NLO signals in imaging contexts completed at explanation level: nonlinear effects need high field/high peak intensity; CW would require impractically high average power and damage samples, whereas ultrafast pulses give high peak intensity with manageable average power.
 - Task 3 update: 2PEF vs confocal completed. User gave the core exam answer: I^2 dependence confines excitation to the focal volume, enabling intrinsic optical sectioning without a pinhole and reducing out-of-focus intensity/damage. Add longer-wavelength/deeper-imaging point for full 6-mark answers.
+- Task 3 update: IR vs Raman selection rules completed at minimum-answer level. User correctly recalled: IR active if vibration changes dipole moment; Raman active if vibration changes polarisability. For full marks add: IR is direct vibrational absorption; Raman is inelastic scattering through a virtual state.
 - Current correction to remember: under E -> -E, (-E)^3 = -E^3, so cubic terms change sign and are allowed in centrosymmetric media; (-E)^2 = E^2, so quadratic terms do not change sign and vanish.
