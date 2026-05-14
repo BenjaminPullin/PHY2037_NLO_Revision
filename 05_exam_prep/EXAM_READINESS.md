@@ -111,7 +111,7 @@ Update this as tasks are completed. An agent should ask about this at the start 
 
 | Task | Status |
 |------|--------|
-| Task 1: Derivations | In progress — P01 replicated once successfully; P02 replicated twice successfully including one blank-page success with unified notation; mastery not yet ticked |
+| Task 1: Derivations | In progress — P01 replicated once successfully; P02 replicated twice successfully including one blank-page success with unified notation; P03 explained successfully; P07 and P09 walked through with prompts; mastery not yet ticked |
 | Task 2: Calculations | Complete — 11/11 recurring calculation types complete |
 | Task 3: Stock explanations | Complete — 14/14 explanation types complete |
 | Task 4: Past paper drills | Not started |
@@ -146,4 +146,6 @@ Update this as tasks are completed. An agent should ask about this at the start 
 - Task 3 update: confocal microscopy completed. User recalled that a pinhole rejects out-of-focus light, allowing optical sectioning, and that scanning produces optical sections. For full marks say the pinhole is conjugate to the focal plane and out-of-focus light is not focused at the pinhole.
 - Task 3 update: fluorescence non-parametric completed. User corrected to the key statement: fluorescence is non-parametric because energy is temporarily stored in a real excited state before delayed emission.
 - Task 3 update: Jablonski diagram assumed complete by user request. Must still preserve full-mark checklist: label S0, S1, S2, absorption, vibrational relaxation, internal conversion, fluorescence, and radiative vs non-radiative transitions.
+- Task 1 update: P02 conceptual correction added. The key thing to remember is: x1 oscillates at omega, x1^2 oscillates at 2omega because (e^(-i omega t))^2 = e^(-2i omega t). The 2omega term comes from squaring x1, not from differentiating. Differentiating x2 at 2omega only gives the factors -2i omega and -4 omega^2 after choosing x2 = x2^(2omega)e^(-2i omega t).
+- Task 1 stopping point for next session: cold-repeat P01 fully first, then cold-repeat P02. For P02, check the user can explain: anharmonic ax^2 term drives x2 via -a x1^2; x1^2 is proportional to E^2 e^(-2i omega t); therefore P^(2) is proportional to E^2 e^(-2i omega t) and radiates SHG.
 - Current correction to remember: under E -> -E, (-E)^3 = -E^3, so cubic terms change sign and are allowed in centrosymmetric media; (-E)^2 = E^2, so quadratic terms do not change sign and vanish.
