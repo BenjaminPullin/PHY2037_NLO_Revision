@@ -16,7 +16,7 @@ Attempt each derivation from scratch on paper. Do not look at notes until you ha
 |---|-----------|-------------|------|
 | P01 | Lorentz oscillator → χ⁽¹⁾(ω) | CERTAIN — every exam | [x] |
 | P02 | SHG χ⁽²⁾ via perturbation theory | CERTAIN — up to 8 marks | [x] |
-| P03 | χ⁽²⁾ = 0 for centrosymmetric materials (perturbation) | CERTAIN — every exam | [ ] |
+| P03 | χ⁽²⁾ = 0 for centrosymmetric materials (perturbation) | CERTAIN — every exam | [x] |
 | P05 | Rayleigh criterion → d = 0.61λ/NA | HIGH — 2 of 3 years | [ ] |
 | P07 | Nonlinear wave equation from Maxwell's | HIGH — 2024 Q4 [6 marks] | [ ] |
 | P08 | Coupled amplitude equation (SFG dA₃/dz) | HIGH | [ ] |
@@ -111,7 +111,7 @@ Update this as tasks are completed. An agent should ask about this at the start 
 
 | Task | Status |
 |------|--------|
-| Task 1: Derivations | In progress — P01 and P02 marked complete by user request after successful cold-repeat work; P03 explained successfully; P07 and P09 walked through with prompts; remaining derivations still unticked |
+| Task 1: Derivations | In progress — P01, P02 and P03 marked complete; P07 and P09 walked through with prompts; remaining derivations still unticked |
 | Task 2: Calculations | Complete — 11/11 recurring calculation types complete |
 | Task 3: Stock explanations | Complete — 14/14 explanation types complete |
 | Task 4: Past paper drills | Not started |
@@ -121,6 +121,7 @@ Update this as tasks are completed. An agent should ask about this at the start 
 - P02 SHG χ⁽²⁾ via perturbation theory: replicated once successfully from scratch. Remaining issue: notation around r₂ amplitudes/components and μ⁽²⁾/P⁽²⁾/χ⁽²⁾ needs consolidation before mastery tick.
 - P02 SHG χ⁽²⁾ via perturbation theory: blank-page success using unified notation r₁ = r₁^(ω)e^(-iωt), r₂ = r₂^(2ω)e^(-2iωt). Strong replication, but leave unticked until later cold repeat.
 - 2026-05-15 update: P01 and P02 marked complete by user request. P01 was repeated from image submission and checked as essentially correct. P02 assumed complete by user request after review.
+- 2026-05-15 update: P03 marked complete by user request after worked solution review. Key retained result: in centrosymmetric media only odd powers survive, so chi^(2)=0 while chi^(3) remains allowed.
 - Task 2 update: pulse energy / peak power / peak intensity completed correctly using P_av = 20 mW, f_rep = 100 MHz, tau_p = 200 fs, r = 0.5 um. Results: E_pulse = 2.0 x 10^-10 J, P_peak = 1.0 kW, I_peak = 1.27 x 10^15 W m^-2.
 - Task 2 update: intensity-to-field conversion completed correctly for I = 1.27 x 10^15 W m^-2, giving E = 9.78 x 10^8 V m^-1 and E/E_at approx 1.96 x 10^-3.
 - Task 2 update: chi estimates completed correctly using E_at = 5.0 x 10^11 V m^-1 and chi^(1) = 2. Results: chi^(2) = 4.0 x 10^-12 m V^-1 and chi^(3) = 8.0 x 10^-24 m^2 V^-2.
@@ -148,5 +149,5 @@ Update this as tasks are completed. An agent should ask about this at the start 
 - Task 3 update: fluorescence non-parametric completed. User corrected to the key statement: fluorescence is non-parametric because energy is temporarily stored in a real excited state before delayed emission.
 - Task 3 update: Jablonski diagram assumed complete by user request. Must still preserve full-mark checklist: label S0, S1, S2, absorption, vibrational relaxation, internal conversion, fluorescence, and radiative vs non-radiative transitions.
 - Task 1 update: P02 conceptual correction added. The key thing to remember is: x1 oscillates at omega, x1^2 oscillates at 2omega because (e^(-i omega t))^2 = e^(-2i omega t). The 2omega term comes from squaring x1, not from differentiating. Differentiating x2 at 2omega only gives the factors -2i omega and -4 omega^2 after choosing x2 = x2^(2omega)e^(-2i omega t).
-- Task 1 stopping point for next session: continue with P03, then P05. P01 and P02 are now ticked complete.
+- Task 1 stopping point for next session: continue with P05 Rayleigh criterion, then P07 nonlinear wave equation.
 - Current correction to remember: under E -> -E, (-E)^3 = -E^3, so cubic terms change sign and are allowed in centrosymmetric media; (-E)^2 = E^2, so quadratic terms do not change sign and vanish.
