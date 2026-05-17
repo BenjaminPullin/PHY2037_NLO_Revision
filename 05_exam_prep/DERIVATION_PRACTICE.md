@@ -150,14 +150,33 @@ $$P = \varepsilon_0\alpha_0 E_0\cos(\omega t) + \frac{\varepsilon_0}{2}\left(\fr
 
 ## Checklist: Must be able to derive without notes
 
-- [ ] P01: Lorentz χ(ω) — **CERTAIN** (every exam)
-- [ ] P02: SHG χ⁽²⁾ via perturbation — **CERTAIN** (every exam; up to 8 marks)
-- [ ] P03: χ⁽²⁾=0 for centrosymmetric — **CERTAIN** (every exam)
+- [x] P01: Lorentz χ(ω) — **CERTAIN** (every exam)
+- [x] P02: SHG χ⁽²⁾ via perturbation — **CERTAIN** (every exam; up to 8 marks)
+- [x] P03: χ⁽²⁾=0 for centrosymmetric — **CERTAIN** (every exam)
 - [ ] P04: Gaussian FWHM
 - [ ] P05: Rayleigh criterion → NA — **HIGH** (2 of 3 years)
 - [ ] P06: Time-bandwidth product — **HIGH** (2 of 3 years)
-- [ ] P07: Nonlinear wave equation — **HIGH** (2024 Q4 [6 marks])
-- [ ] P08: Coupled amplitude equation — **HIGH**
-- [ ] P09: sinc² signal intensity — **HIGH** (2024 Q4 [6 marks])
-- [ ] P10: Nonlinear resolution squeeze — **HIGH** (every year)
-- [ ] P11: Raman Taylor expansion (Stokes/anti-Stokes) — **MEDIUM** (PS2 [7 marks])
+- [x] P07: Nonlinear wave equation — **HIGH** (2024 Q4 [6 marks])
+- [x] P08: Coupled amplitude equation — **HIGH**
+- [x] P09: sinc² signal intensity — **HIGH** (2024 Q4 [6 marks])
+- [x] P10: Nonlinear resolution squeeze — **HIGH** (every year)
+- [x] P11: Raman Taylor expansion (Stokes/anti-Stokes) — **MEDIUM** (PS2 [7 marks])
+
+## Progress notes
+
+Updated 2026-05-17 during interactive revision.
+
+Completed or treated as exam-ready in discussion:
+- P01–P03: Lorentz susceptibility, SHG perturbation, centrosymmetry argument.
+- P07–P09: nonlinear wave equation, coupled amplitude equation, sinc² signal growth.
+- P10: nonlinear resolution squeeze, including general n-photon FWHM scaling FWHM_nP = FWHM_1P/√n.
+- P11: Raman Taylor expansion, Raman active condition, Stokes/anti-Stokes/Rayleigh components.
+
+Also revised conceptually:
+- IR vs Raman selection rules.
+- CARS vs SRS: resonance condition, anti-Stokes frequency, pump loss/Stokes gain, non-resonant background.
+- Nonlinear microscopy advantages: intrinsic sectioning, reduced out-of-focus photobleaching, NIR penetration, technique-to-contrast mapping.
+- Pulse calculations: E_pulse = P_av/f_rep, P_peak = E_pulse/τ_p, I_peak = P_peak/A.
+- Bandwidth conversion: Δλ = (λ²/c)Δν.
+- Transform-limited Gaussian pulse estimate: ΔνΔt = 0.441.
+- ps vs fs pulses for CARS/SRS chemical selectivity.
